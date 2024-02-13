@@ -1,0 +1,26 @@
+.controller {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 2px solid #e4e4e4;
+  padding: 5px;
+}
+
+.controller img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.cart {
+  position: absolute;
+  top: 20px;
+  right: 37px;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  padding: 0 10px;
+  cursor: pointer;
+}

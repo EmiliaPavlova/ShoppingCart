@@ -1,0 +1,46 @@
+.modal {
+  position: absolute;
+  top: 36px;
+  z-index: 1;
+  display: block;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px #8e8e8e;
+  text-align: left;
+  background-color: #fff;
+}
+
+.modal-filter {
+  right: 50px;
+}
+
+.modal-sorter {
+  right: 10px;
+}
+
+.modal div {
+  padding: 4px 12px 6px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.modal div:hover {
+  background-color: #e4e4e4;
+}
+
+.modal div:first-child:hover {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.modal div:last-child:hover {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.modal div:active {
+  background-color: #8e8e8e;
+}
+
+.modal div:not(:last-child) {
+  border-bottom: 1px solid #e4e4e4;
+}

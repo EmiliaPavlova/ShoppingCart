@@ -1,0 +1,48 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0px 0px 5px #8e8e8e;
+  border-radius: 4px;
+}
+
+.product:hover {
+  background-color: #e4e4e4;
+}
+
+.product p {
+  margin: 0;
+  text-align: left;
+}
+
+.image {
+  align-self: center;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.add-button {
+  padding: 0.6em 1.2em;
+  margin: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: #398346;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  border: 1px solid #000;
+  background-color: #26562f;
+  outline: none;
+}
+
+.add-button:active {
+  border: 1px solid #000;
+  background-color: #000;
+}
