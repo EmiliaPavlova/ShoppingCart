@@ -4,7 +4,7 @@ This project uses React + TypeScript + Vite.
 
 ## Available Scripts
 
-- `npm run dev` - runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- `npm run dev` - runs the app in the development mode. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 - `npm test` - no tests for the moment
 - `npm run build` - builds the app for production to the `build` folder. It bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
 
